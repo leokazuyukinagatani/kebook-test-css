@@ -7,6 +7,8 @@
 :root {
   --white: #fff;
   --white-200: #f6f7fb;
+  --orange: #f08432;
+  --red: #fe0f17;
 }
 
 body {
@@ -72,7 +74,7 @@ img {
 }
 
 #menu a.btn:hover {
-  color: orange;
+  color: var(--orange);
 }
 
 .introduction {
@@ -147,14 +149,18 @@ img {
 }
 
 .btn:hover {
-  color: orange;
+  color: var(--orange);
   background-color: var(--white);
   border: 2px solid var(--white);
 }
 
+.btn:hover svg path {
+  fill: var(--orange);
+}
+
 .bg-red {
-  background-color: #fe0f17;
-  border: 2px solid #fe0f17;
+  background-color: var(--red);
+  border: 2px solid var(--red);
 }
 .benefits-list {
   list-style: none;
@@ -194,7 +200,7 @@ img {
     right: 0px;
     background-color: var(--white);
     transition: 0.6s;
-    z-index: 1000;
+    z-index: 9999;
     height: 0px;
     visibility: hidden;
     overflow-y: hidden;
@@ -210,7 +216,7 @@ img {
 
   #header:has(#nav.active) {
     position: fixed;
-    background-color: #f08432;
+    background-color: var(--orange);
   }
 
   #header #nav.active #menu {
@@ -226,7 +232,7 @@ img {
   }
 
   #menu a:hover {
-    color: orange;
+    color: var(--orange);
     border: none;
   }
 
