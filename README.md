@@ -1,6 +1,6 @@
 
 
-![Logo](https://kebook-test-css.netlify.app/)
+![Logo](https://imgur.com/a/9Zc0I0d)
 
 
 # Desafio Kebook - CSS
@@ -20,7 +20,8 @@ HTML, CSS e Javascript
 
 
 
-
+## Deploy
+- Site disponivel no link: [Kebook Site](https://kebook-test-css.netlify.app/)
 
 
 ## Suporte
