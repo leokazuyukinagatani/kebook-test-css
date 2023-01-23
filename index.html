@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +9,35 @@
   <link rel="icon" href="https://kebook.com.br/files/favicon.png" type="image/png" sizes="100x100">
   <meta name="title" content="Kebook | Onde você aprende, ensina e empreende online">
   <meta name="description"
-  content="A Kebook é um dos principais marketplaces para ensino e aprendizado do Brasil, que possui cursos online para você se tornar o profissional que o mercado demanda.">
+    content="A Kebook é um dos principais marketplaces para ensino e aprendizado do Brasil, que possui cursos online para você se tornar o profissional que o mercado demanda.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://kebook.com.br">
   <meta property="og:title" content="Kebook | Onde você aprende, ensina e empreende online">
   <meta property="og:description"
-  content="A Kebook é um dos principais marketplaces para ensino e aprendizado do Brasil que conecta assinantes, instrutores e afiliados ajudando-os a alcançarem seus sonhos.">
+    content="A Kebook é um dos principais marketplaces para ensino e aprendizado do Brasil que conecta assinantes, instrutores e afiliados ajudando-os a alcançarem seus sonhos.">
   <meta property="og:image" content="https://www.kebook.com.br/files/imgs/social-share.png">
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://kebook.com.br">
   <meta property="twitter:title" content="Kebook | Onde você aprende, ensina e empreende online">
   <meta property="twitter:description"
-  content="A Kebook é um dos principais marketplaces para ensino e aprendizado do Brasil, que possui cursos online para você se tornar o profissional que o mercado demanda.">
+    content="A Kebook é um dos principais marketplaces para ensino e aprendizado do Brasil, que possui cursos online para você se tornar o profissional que o mercado demanda.">
   <meta property="twitter:image" content="https://www.kebook.com.br/files/imgs/social-share.png">
-  
+
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
   <script src="./script.js" defer></script>
 </head>
+
 <body>
   <header id="header">
     <a id="logo" href="/">
       <img src="./assets/logo.svg">
     </a>
     <nav id="nav">
-      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+        aria-expanded="false">Categorias
         <span id="hamburger"></span>
       </button>
       <ul id="menu" role="menu">
@@ -44,39 +47,57 @@
         <li><a href="#">Afiliado</a></li>
         <li><a href="#">Suporte</a></li>
         <li><a href="#">Carreiras</a></li>
+        <li id="search-item"><a><img src="./assets/icon-search.svg" alt=""></a></li>
+        <li><a class="btn" href=""><img src="./assets/icon-person.svg" alt=""> Login | Inscrever-se</a></li>
       </ul>
     </nav>
   </header>
   <main class="container">
     <section class="introduction">
-      <h1>Investir em Seu <strong>Futuro</strong></h1>
-      <p>A Kebook tem os cursos online que você precisa para ser o profissional que o mercado de hoje procura</p>
-      <a href="" class="btn">Comprar um curso</a>
-      <a href="" class="btn">Comece a ensinar agora mesmo</a>
-      <span>Tem cadastro na Kebook?</span>
-      <a href="">Acesse seu perfil</a>
-      <img src="./assets/woman-rocket.png" alt="">
+      <div class="introduction-content">
+        <h1>Investir em <br>Seu <strong>Futuro</strong></h1>
+        <p>A Kebook tem os cursos online que você precisa para ser o profissional que o mercado de hoje procura</p>
+        <div class="introduction-buttons">
+          <a href="" class="btn bg-red">Comprar um curso</a>
+          <a href="" class="btn">Comece a ensinar agora mesmo</a>
+        </div>
+        <div class="introduction-login">
+          <span>Tem cadastro na Kebook?</span>
+          <a href="">Acesse seu perfil</a>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="./assets/woman-rocket.png" alt="">
+      </div>
     </section>
     <section class="benefits">
       <ul class="benefits-list">
         <li>
-          <img src="./assets/icon-1.png" alt="">
+          <div class="image-icon">
+            <img src="./assets/icon-1.png" alt="">
+          </div>
           <h2>Aprenda com especialistas</h2>
           <p>Selecione cursos dos melhores instrutores do mercado</p>
         </li>
         <li>
-          <img src="./assets/icon-2.png" alt="">
-          <h2>Maior Empregabilidade</h2>
+          <div class="image-icon">
+            <img src="./assets/icon-2.png" alt="">
+          </div>
+          <h2>Maior <br>Empregabilidade</h2>
           <p>Invista no desenvolvimento da sua carreira e vida pessoal</p>
         </li>
         <li>
-          <img src="./assets/icon-3.png" alt="">
-          <h2>Siga no seu próprio ritmo</h2>
+          <div class="image-icon">
+            <img src="./assets/icon-3.png" alt="">
+          </div>
+          <h2>Siga no seu próprio <br> ritmo</h2>
           <p>Defina seu ritmo de estudo conforme à sua disponibilidade</p>
         </li>
         <li>
-          <img src="./assets/icon-4.png" alt="">
-          <h2>Torne-se um instrutor</h2>
+          <div class="image-icon">
+            <img src="./assets/icon-4.png" alt="">
+          </div>
+          <h2>Torne-se um <br>instrutor</h2>
           <p>Possua as ferramentas ideais para ensinar o que você ama</p>
         </li>
       </ul>
@@ -84,4 +105,5 @@
   </main>
   <footer></footer>
 </body>
+
 </html>
