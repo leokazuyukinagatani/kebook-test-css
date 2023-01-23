@@ -1,6 +1,6 @@
 
 
-![Logo](https://imgur.com/jJdxni6)
+![Logo](https://i.imgur.com/jJdxni6.png)
 
 
 # Desafio Kebook - CSS
